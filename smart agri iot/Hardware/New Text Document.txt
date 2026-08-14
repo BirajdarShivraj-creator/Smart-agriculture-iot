@@ -1,0 +1,40 @@
+Hardware Required
+ESP32 Development Board
+Main microcontroller
+Handles sensor readings, processing, and system control.
+Soil Moisture Sensor
+Measures moisture content in the soil.
+Provides data for monitoring field conditions.
+NPK Sensor
+Measures Nitrogen, Phosphorus, and Potassium levels in the soil.
+Helps determine nutrient requirements.
+DHT11/DHT22 Temperature & Humidity Sensor
+Measures surrounding temperature and humidity.
+Rain Sensor
+Detects rainfall conditions.
+Can be used to prevent unnecessary agricultural operations during rain.
+Water/Fertilizer Flow Sensor
+Measures the flow rate of liquid fertilizer or nutrient solution.
+Useful for monitoring the quantity being supplied.
+NPK Fertilizer Hoppers/Containers
+Separate storage containers for Nitrogen, Phosphorus, and Potassium fertilizers.
+DC Pumps / Peristaltic Pumps
+Used to transfer and mix liquid nutrients from the respective containers.
+Relay Module / MOSFET Driver Module
+Provides electrical control of pumps and other high-current loads from the ESP32.
+DC Geared Motors
+Used for mechanical operation such as opening/closing fertilizer mechanisms or rotating the mixing system.
+Motor Driver Module
+Controls the direction and speed of DC motors.
+LCD/OLED Display
+Displays sensor readings and system status locally.
+Wi-Fi Connectivity through ESP32
+Enables transmission of sensor data to an IoT platform or mobile/web interface.
+Power Supply Unit
+Suitable regulated supply for ESP32, sensors, pumps, and motors.
+Battery/Solar Power System (optional)
+Can provide power for outdoor agricultural deployment.
+Connecting Wires, Breadboard/PCB, Terminals & Connectors
+Required for electrical connections and hardware integration.
+Enclosure/Control Panel
+Protects the electronic components from dust, moisture, and agricultural environmental conditions.
